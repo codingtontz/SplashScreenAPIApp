@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SplashTheme" parent="Theme.SplashScreen">
+        //set the splash screen background color
+        <item name="windowSplashScreenBackground">@color/purple_500</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">200</item> #required if you have an animated drawable icon
+
+        //set theme that follows your splash screen
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenAPI</item>
+    </style>
+</resources>
